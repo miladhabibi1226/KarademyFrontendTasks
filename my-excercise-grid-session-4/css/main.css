@@ -1,0 +1,99 @@
+html,body,div{
+    box-sizing: border-box;
+}
+body{
+     font: 1rem/1.25 Inter, Helvetica; 
+}
+.header{
+    display: flex;
+    box-shadow: 0 0 3px rgba(0,0,0,.2); 
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.logo-container , .nav-container {
+    
+    /* flex-grow: 1; */
+    align-items:center;
+    display: flex;
+   
+}
+.logo-container{
+    color:#999;
+    /* flex-grow: 2; */
+    text-transform: capitalize;
+    
+
+}
+.nav-container{
+    flex: 0 1 80%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.nav-container a{
+    text-transform: uppercase;
+    padding: 0 20px ;
+    color: #333;
+    text-decoration: none;
+     font-weight: bold;
+   
+     
+}
+.row article{
+    margin: 10px 15px;
+}
+.img{
+    position: relative;
+}
+
+.timer{
+    width:26x ;
+    height:13px ;
+    opacity: .7;
+    right: 3px;
+    bottom: 3px;
+    color: #fff;
+    text-align: center;
+    font-size: .4rem;
+    background-color:#333 ;
+    position: absolute;
+}
+section.row article:first-child{
+    margin: 10px 15px 10px 0;
+}
+/* .boxed-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: auto;
+    background-color: indigo;
+
+}
+.main-section{
+    flex-basis: 70%;
+    background-color: lawngreen;
+
+}
+.aside-section{
+    background-color: lightsalmon;
+    flex-basis: 30%;
+} */
+img{
+    height: auto;
+    width: 100%;
+    display: block;
+    /* background-color: #333; */
+}
+figure{
+    margin: 0;
+}
+@media screen and(min-width: 741px){
+    .ted-talks-speaker{
+        flex-direction: column;;
+    }
+}
